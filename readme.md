@@ -1162,8 +1162,6 @@ class Program
 
 33) Criar um programa que lê um arquivo JSON contendo informações de várias pessoas, permite ao usuário inserir uma idade e exibe as pessoas com aquela idade.
 
-R: 
-
 ```c#
 using System;
 using System.Collections.Generic;
