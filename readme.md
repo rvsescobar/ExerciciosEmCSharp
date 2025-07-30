@@ -809,7 +809,7 @@ using (HttpClient client = new HttpClient())
 
 22) Modelar e desserializar a classe Livro, que pode ser encontrada no [endpoint disponibilizado](https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/Livros.json)
 
-classe Livro:
+Classe Livro:
 ```c#
 using System.Text.Json.Serialization;
 
@@ -895,7 +895,7 @@ class Livro
     public int AnoPublicacao { get; set; }
 }
 ```
-
+main:
 ```c#
 List<Livro> livros = new List<Livro>
 {
